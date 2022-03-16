@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 nav{
     display: flex;
     position: fixed;
     width: 100%;
     justify-content: space-around;
     padding: 10px;
-    background-color: #723527;
+    background-color: #72352700;
+    background-color: #fffffff1;
     align-items: center;
     min-height: 8vh;
 }
 
-.logo{
-    color: rgb(255, 246, 240);
+.logo h4{
+    color: #5e2b1f;
     text-transform: uppercase;
     letter-spacing: 5px;
+    font-family: 'Acme', sans-serif;
+    font-weight: bolder;
     font-size: 25px;
+
 }
 
 .nav-links{
@@ -21,14 +28,13 @@ nav{
     margin: 0 20px;
     justify-content: space-around;
     align-items: center;
-    color: rgb(255, 246, 240);
 }
 
 .nav-links a{
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: bold;
-    color: rgb(255, 246, 240);
+    color: #5e2b1f;
 }
 
 @media only screen and (max-width: 800px) {

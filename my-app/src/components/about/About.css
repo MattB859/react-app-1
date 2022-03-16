@@ -1,0 +1,33 @@
+.box-1, .box-2{
+    height: 100%;
+    width: 100%;
+}
+
+.about-img{
+    background: url('./images/about.png') center no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 35%;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.about-title{
+    position: relative;
+    top: 40%;
+    width: 70%;
+    font-family: 'Acme', sans-serif;
+    margin: 0 auto;
+    color: #6b3123;
+}
+
+
+.about-paragraph{
+    position: relative;
+    top: 45%;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    color: #000000;
+}

@@ -1,16 +1,17 @@
 import React from 'react'
 import './Hero.css'
 
+let title = 'Clairs Coffee Shop';
+let paragraph = 'Taste The Best Coffee Around'
+
 const Hero = () => {
   return (
     <>
       <div className='hero-image'></div>
+      <div className='hero-image-2'></div>
       <div className='title'>
-        <h1>Taste The Best Coffee Around 
-          <br/>
-          London coffe shop
-        </h1>
-        <p>London coffe shop</p>     
+        <h1>{title}</h1> 
+        <p>{paragraph}</p>     
       </div>    
     </>    
   )

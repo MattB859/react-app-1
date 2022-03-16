@@ -1,12 +1,14 @@
 import React from 'react'
 import './Navbar.css'
 
+let logo = 'Coffee House';
+
 const NavBar = () => {
   return (
     <>
       <nav>
         <div className='logo'>
-          <h4>Coffee House</h4>
+          <h4>{logo}</h4>
         </div>
         <ul>
           <li className='nav-links'><a href="/">Home</a></li>
