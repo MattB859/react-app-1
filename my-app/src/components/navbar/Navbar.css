@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #723527;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.logo{
+    color: rgb(255, 246, 240);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+.nav-links{
+    display: inline-flex;
+    margin: 0 20px;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 246, 240);
+}
+
+.nav-links a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: rgb(255, 246, 240);
+}
