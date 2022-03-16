@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+.hero-image{
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+    url("./images/coffee-image.jpg") center no-repeat;
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+}
+
+.title h1{
+    color: rgb(250, 247, 241);
+    font-weight: bold;
+    position: absolute;
+    font-family: 'Source Sans Pro', sans-serif;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    
+}
+
+.title p{
+    position: absolute;
+    color: rgb(250, 247, 241);
+    font-family: 'Source Sans Pro', sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .title h1{
+        font-size: 2rem;
+    }
+    .title p{
+        font-size: 1rem;
+    }
+
+}

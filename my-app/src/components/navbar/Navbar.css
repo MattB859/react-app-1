@@ -1,5 +1,7 @@
 nav{
     display: flex;
+    position: fixed;
+    width: 100%;
     justify-content: space-around;
     padding: 10px;
     background-color: #723527;
@@ -27,4 +29,17 @@ nav{
     letter-spacing: 2px;
     font-weight: bold;
     color: rgb(255, 246, 240);
+}
+
+@media only screen and (max-width: 800px) {
+   .nav-links{
+       display: none;
+   }
+
+   .logo{
+       text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+
 }
