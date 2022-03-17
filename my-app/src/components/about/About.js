@@ -7,7 +7,7 @@ const About = () => {
     <>
         <article className='container mx-auto' id='about'>
             <div className='wrapper'>
-                <div className='grid md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-1'>
+                <div className='grid md:grid-cols-1 lg:grid-cols-2 xs:grid-cols-1'>
                 <div className='about-img'></div>
                 <div className='content'>
                    <h1 className='about-title'>

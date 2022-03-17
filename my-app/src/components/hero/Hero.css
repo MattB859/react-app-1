@@ -102,7 +102,8 @@
 
 @media only screen and (max-width: 600px) {
     .title h1{
-        font-size: 6vw;
+        width: 90%;
+        font-size: 7vw;
     }
     .title p{
         font-size: 1rem;
@@ -121,6 +122,17 @@
 
     .box-1 h1 p{
         font-size: 5vw;
+    }
+    .hero-image-2{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        background : url("./images/coffee-cup.png") center no-repeat;
+        background-size: cover;
+        transform: translate(-50%, -50%);
+        height: 300px;
+        width: 300px;
+    
     }
 
 }
