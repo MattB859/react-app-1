@@ -14,13 +14,21 @@ nav{
 }
 
 .logo h4{
+
     color: #5e2b1f;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-family: 'Acme', sans-serif;
     font-weight: bolder;
     font-size: 25px;
+    margin: 0 auto;
+}
 
+.brand{
+    background: url(./images/coffee-logo.png);
+    background-size: contain;
+    height: 65px;
+    width: 65px;
 }
 
 .nav-links{
