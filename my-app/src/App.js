@@ -1,6 +1,7 @@
 import NavBar from './components/navbar/NavBar';
 import Hero from './components/hero/Hero';
 import About from './components/about/About';
+import Product from './components/product/Product';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <NavBar/>
     <Hero/>
     <About/>
+    <Product/>
     </>
   );
 }
