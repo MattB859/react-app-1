@@ -11,9 +11,9 @@ function App() {
     <>
     <NavBar/>   
     <Hero/>
-    <Form/>
     <About/>
     <Product/>
+    <Form/>
     <Footer/>
     </>
   );

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 
-let title = 'Clairs Coffee Shop';
+let title = 'The Coffee Factory';
 let paragraph = 'Taste The Best Coffee Around'
 
 const Hero = () => {

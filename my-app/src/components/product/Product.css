@@ -5,55 +5,47 @@
 }
 
 .product-1{
+    cursor: pointer;
+    height: 250px;
     background: url('./images/5.png') center no-repeat;
     background-size: contain;
 }
 
 .product-2{
+    cursor: pointer;
+    height: 250px;
     background: url('./images/cup-2.png') center no-repeat;
     background-size: contain;
 }
 
 
 .product-3{
+    cursor: pointer;
+    height: 250px;
     background: url('./images/6.png') center no-repeat;
     background-size: contain;
 }
 
 .product-4{
+    cursor: pointer;
+    height: 250px;
     background: url('./images/3.png') center no-repeat;
     background-size: contain;
 }
 
 
 .product-5{
+    cursor: pointer;
+    height: 250px;
     background: url('./images/7.png') center no-repeat;
     background-size: contain;
 }
 
-.product-6,
-.product-7,
-.product-8{
+.product-6, .product-7, .product-8{
+    cursor: pointer;
+    height: 250px;
     background: url('./images/cup-2.png') center no-repeat;
     background-size: contain;
-}
-
-.product-1,
-.product-3,
-.product-6,
-.product-8{
-    cursor: pointer;
-    height: 250px;
-    background-color: rgba(177, 105, 76, 0);
-}
-
-.product-2,
-.product-4,
-.product-5,
-.product-7{
-    cursor: pointer;
-    height: 250px;
-    background-color: rgba(177, 96, 76, 0);
 }
 
 .card-body{
@@ -62,11 +54,12 @@
     transform: 0.5s;
     overflow: hidden;
 }
-.card-body:hover{
+
+/*.card-body:hover{
     box-shadow:  4px 4px 10px rgba(94, 94, 94, 0.548);
     background-color: rgb(165, 81, 42);
     color: aliceblue;
-}
+}*/
 
 .card-text{
     margin-top: 10px;
