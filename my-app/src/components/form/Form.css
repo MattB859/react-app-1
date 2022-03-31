@@ -23,7 +23,7 @@ input[type="text"]:focus{
     box-shadow: 2px 2px 20px #a85a10;
 }
 
-button[type=submit]{
+.form-button[type=submit]{
     position: relative;
     display: flex;
     justify-content: center;

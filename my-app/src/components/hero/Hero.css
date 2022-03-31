@@ -4,8 +4,8 @@
 .hero-image{
     background:
     linear-gradient(
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0)
+        rgba(0, 0, 0, 0.356),
+        rgba(0, 0, 0, 0.315)
       ),
     url("./images/hero-4.jpg") center no-repeat;
     background-size: cover;
@@ -22,34 +22,41 @@
     transform: translate(-50%, -50%);
     height: 500px;
     width: 500px;
+}
 
+
+.waves{
+    position: absolute;
+    top: 75%;
+    height: 520px;
+    width: 100%;
+    background : url("./images/wave.png")no-repeat;
+    background-size: cover;
+    z-index: 1;
 }
 
 .title h1{
+    position: absolute;
     color: rgb(250, 247, 241);
     font-weight: bold;
-    position: absolute;
     font-family: 'Acme', sans-serif;
     top: 30%;
     padding: 10px;
     z-index: 2;
-    width: 60%;
-    text-align: center;
     text-transform: uppercase;
-    font-size: 4rem;
-   
+    font-size: 5rem;
+    left: 9rem;
 }
 
 .title p{
     position: absolute;
     color: rgb(236, 218, 117);
-    font-family: 'Acme', sans-serif;
-    top: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 42%;
     z-index: 2;
-    text-align: center;
-    width: 60%;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 25px;
+    left: 10rem;
 }
 
 .hero-image-2 img{
@@ -59,12 +66,59 @@
     height: 200px;
 }
 
+.hero-btn{
+    position: absolute;
+    top: 50%;
+    left: 10rem;
+    z-index: 2;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: 2px solid white;
+    background-color: none;
+    color: rgb(255, 255, 255);
+}
+
+.hero-btn2{
+    position: absolute;
+    top: 50%;
+    left: 22rem;
+    font-size: 20px;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 10px 25px;
+    border: 2px solid rgb(102, 53, 13);
+    background-color: rgb(102, 53, 13);
+    color: aliceblue;
+}
+
+.hero-btn:hover{
+    background-color: rgb(248, 248, 248);
+    color: rgb(70, 36, 9);
+}
+
+.hero-btn2:hover{
+    background: rgb(231, 152, 4);
+    color: rgb(70, 36, 9);
+    border: 2px solid rgb(231, 152, 4);
+}
+
+
 @media only screen and (max-width: 1150px) {
     .title h1{
         font-size: 5vw;
     }
     .title p{
         font-size: 2vw;
+    }
+    .waves{
+        position: absolute;
+        top: 86%;
+        height: 520px;
+        width: 100%;
+        background : url("./images/wave.png")no-repeat;
+        background-size: cover;
+        z-index: 1;
     }
 }
 
@@ -75,23 +129,31 @@
     .title p{
         font-size: 1rem;
     }
+
     .hero-image-2{
         position: absolute;
-        top: 80%;
-        left: 50%;
-        background:
-        url("./images/coffee-cup.png");
+        top: 50%;
+        background : url("./images/cup-6.png") no-repeat;
         background-size: cover;
-        transform: translate(-50%, -50%);
-        height: 350px;
-        width: 350px;
+        height: 400px;
+        width: 400px;
     }
+
     .box-1 h1{
         font-size: 5vw;
     }
 
     .box-1 p{
         font-size: 18px;
+    }
+    .waves{
+        position: absolute;
+        top: 86%;
+        height: 520px;
+        width: 100%;
+        background : url("./images/wave.png")no-repeat;
+        background-size: cover;
+        z-index: 1;
     }
 }
 

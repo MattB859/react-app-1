@@ -5,7 +5,7 @@ nav{
     display: flex;
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 10;
     justify-content: space-around;
     padding: 10px;
     background-color: #fffffffd;
@@ -14,7 +14,6 @@ nav{
 }
 
 .logo h4{
-
     color: #5e2b1f;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -24,12 +23,6 @@ nav{
     margin: 0 auto;
 }
 
-.brand{
-    background: url(./images/coffee-logo.png);
-    background-size: contain;
-    height: 65px;
-    width: 65px;
-}
 
 .nav-links{
     display: inline-flex;
@@ -46,13 +39,13 @@ nav{
 }
 
 @media only screen and (max-width: 800px) {
-   .nav-links{
+    .nav-links{
        display: none;
    }
 
-   .logo{
+    .logo{
        text-align: center;
-    margin: 0 auto 0 auto;
+        margin: 0 auto 0 auto;
 }
 
 
